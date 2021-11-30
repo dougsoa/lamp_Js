@@ -3,11 +3,11 @@ const turnOff = document.getElementById('turnOff')
 const lamp = document.getElementById('lamp')
 
 function lampOn() {
-  lamp.src = './img/lampadaLigada.jpg'
+  lamp.src = './img/Ligada.png'
 }
 
 function lampOff() {
-  lamp.src = './img/lampadaDesligada.jpg'
+  lamp.src = './img/Desligada.png'
 }
 
 turnOn.addEventListener('click', lampOn)
